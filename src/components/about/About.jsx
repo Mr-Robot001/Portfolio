@@ -8,14 +8,14 @@ const About = () => {
   return (
     <section className="about section" id="about">
       <h2 className="section__title">About Me</h2>
-      <span className="section__subtitle">My introduction</span>
+      <span className="section__subtitle"></span>
       <div className="about__container container grid">
         <img src={AboutImg} alt="" className="about__img" />
         <div className="about__data">
           <Info />
           <p className="about__description">
             I am a Fresher web developer and I am at learning path of MERN Stack
-            . I also made some projects based on MERN Technology.
+            . I also works on some projects based on MERN Technology.
           </p>
           <a href={CV} download="" className="button button--flex">
             Download CV

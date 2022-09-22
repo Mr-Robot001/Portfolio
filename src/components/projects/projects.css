@@ -28,6 +28,12 @@
     font-size: var(--small-font-size);
 }
 
+.project__link{
+ color: var(--text-color-dark);
+}
+.project__link:hover{
+ text-decoration: underline;
+}
 /* Swiper Class */
 
 .swiper-pagination-bullet{
